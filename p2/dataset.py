@@ -22,12 +22,12 @@ class Dog_Cat_Dataset(Dataset):
             
         self.img_size = img_size
         
-        dog_imgs = glob.glob(os.path.join(path,'dog/*.jpg'))
         cat_imgs = glob.glob(os.path.join(path,'cat/*.jpg'))
+        dog_imgs = glob.glob(os.path.join(path,'dog/*.jpg'))
         
-        self.data = list(dog_imgs)+list(cat_imgs)
-        self.label = [0 for i in range(len(dog_imgs))] + \
-                      [1 for i in range(len(cat_imgs))]
+        self.data = list(cat_imgs)+list(dog_imgs)
+        self.label = [0 for i in range(len(cat_imgs))] + \
+                      [1 for i in range(len(dog_imgs))]
     
     def __len__(self):
         return len(self.data)
