@@ -3,8 +3,7 @@
 * [[HW6 Intro PPT]](https://docs.google.com/presentation/d/1Z78G3BtEcxHlGT6Kq6HZwOw43TfwtShQ2jTF4U9AARw/edit?usp=sharing)
 * [[Download Dataset]](https://drive.google.com/drive/folders/18qbP_TmutvnE5XrNZPeJ-wIfYvkHa7gh?usp=sharing)
 # Problem1: Regression
-## Example code
-https://www.pyexercise.com/2019/04/pytorch-linear-regression-1.html
+Resource: https://www.pyexercise.com/2019/04/pytorch-linear-regression-1.html
 
 # Problem2: Cat Dog Classification
 ![](https://i.imgur.com/oT2V9ew.png)
