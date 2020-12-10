@@ -3,5 +3,7 @@ __pycache__
 *.ipynb
 *.jpg
 *.png
+*.pt
+*.pth
 wandb
 
