@@ -4,6 +4,11 @@
 * [[Download Dataset]](https://drive.google.com/drive/folders/18qbP_TmutvnE5XrNZPeJ-wIfYvkHa7gh?usp=sharing)
 # Problem1: Regression
 Resource: https://www.pyexercise.com/2019/04/pytorch-linear-regression-1.html
+Example code:
+```
+> cd p1
+# see hw6_p1.py
+```
 
 # Problem2: Cat Dog Classification
 ![](https://i.imgur.com/oT2V9ew.png)
